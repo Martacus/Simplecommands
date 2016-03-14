@@ -38,6 +38,8 @@ Now we can work with the IDiscordClient that has been passed with the enable() m
 Anything you would do in the main function of your original bot would go in the enable method. Here is an example of adding a Event Listener:
 
 ```Java	
+    public static IDiscordClient client;
+    
     public boolean enable(IDiscordClient dclient) {
 		client = dclient;
 		EventDispatcher dispatcher = client.getDispatcher();
