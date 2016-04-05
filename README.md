@@ -1,4 +1,4 @@
-# Simplecommands
+# Discord4J Module tutorial
 Module Example for Discord4J Java API
 
 First you start by creating a new maven or gradle project and adding the [Discord4J](http://austinv11.github.io/Discord4J/) depency.
