@@ -50,7 +50,8 @@ Anything you would do in the main function of your original bot would go in the 
 
 Just like that! There you have it, your very own module!
 
-#Installing the module
+## Installing the module
+
 Once you finished the code it is time to install the module to the bot you are using. Be aware this bot needs to be made with the Discord4J API or it will most certainly break.
 
 To do that you need the project in a jar format. Go to the root directory of your project and run ```mvn clean package```. You will then find the jar file in the target folder. Copy the jar file and go to the directory of your bot. You should see the module folder there. Paste the jar file in there and all should be good!
